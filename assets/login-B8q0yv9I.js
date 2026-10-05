@@ -1,1 +1,1 @@
-import{r as e}from"./useRouter-80ermfqe.js";import{m as t}from"./index-CDjhILkx.js";var n=e();function r(){return(0,n.jsx)(t,{to:`/onboarding`})}export{r as component};
+import{r as e}from"./useRouter-80ermfqe.js";import{m as t}from"./index-CDjhILkx2.js";var n=e();function r(){return(0,n.jsx)(t,{to:`/onboarding`})}export{r as component};

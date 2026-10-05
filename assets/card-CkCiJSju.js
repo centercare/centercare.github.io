@@ -1,1 +1,1 @@
-import{r as e}from"./useRouter-80ermfqe.js";import{J as t}from"./shell-q1SQ7iZw.js";var n=e();function r({className:e,...r}){return(0,n.jsx)(`div`,{className:t(`rounded-xl border border-line bg-paper p-5 shadow-[var(--shadow-soft)]`,e),...r})}export{r as t};
+import{r as e}from"./useRouter-80ermfqe.js";import{J as t}from"./shell-q1SQ7iZw2.js";var n=e();function r({className:e,...r}){return(0,n.jsx)(`div`,{className:t(`rounded-xl border border-line bg-paper p-5 shadow-[var(--shadow-soft)]`,e),...r})}export{r as t};
