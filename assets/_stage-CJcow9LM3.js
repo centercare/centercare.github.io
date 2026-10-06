@@ -1,1 +1,1 @@
-import{r as e}from"./useRouter-80ermfqe.js";import{a as t}from"./shell-q1SQ7iZw4.js";import{p as n}from"./index-CDjhILkx4.js";var r=e();function i(){return(0,r.jsx)(t,{children:(0,r.jsx)(n,{})})}export{i as component};
+import{r as e}from"./useRouter-80ermfqe.js";import{a as t}from"./shell-q1SQ7iZw5.js";import{p as n}from"./index-CDjhILkx5.js";var r=e();function i(){return(0,r.jsx)(t,{children:(0,r.jsx)(n,{})})}export{i as component};
