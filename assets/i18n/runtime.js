@@ -83,6 +83,8 @@
 
   function translateString(s) {
     if (!s || typeof s !== "string") return s;
+    // Keep single Arabic letters (e.g. logo mark ر) untranslated.
+    if (/^[\u0600-\u06FF]$/.test(s.trim())) return s;
     const exact = lookup(s);
     if (exact != null) return exact;
     const trimmed = s.trim();
