@@ -1,10 +1,18 @@
-# رفيق (Rafeeq) — static mirror for GitHub Pages
+# رفيق (Rafeeq) — GitHub Pages
 
-Arabic RTL cancer-care companion platform, mirrored from https://cancare.grok.me and
-published as a **client-only SPA** at the root of https://centercare.github.io/
-(repo `Crecenter.github.io`, no base path).
+Arabic-first cancer-care companion, published at https://centercare.github.io/
+(org `centercare`, repo `centercare.github.io`).
 
-- No login, no server: the care profile is stored in the browser's `localStorage` (`rafeeq-care-v1`).
-- `index.html` / `404.html` / every route folder contain the same SPA shell; `404.html` is the
-  deep-link fallback for dynamic routes (`/cancers/:slug`, `/meals/:slug`, `/learn/:stage/:step`, ...).
-- Router bundle: `assets/index-CDjhILkx.js` (patched: `createRoot` instead of `hydrateRoot`, no SSR dehydration step).
+## Languages
+
+- **Arabic (default)** — primary UI; copy polished for clearer MSA.
+- **English** and **Urdu** — via the language switcher (top corner). Preference is stored in `localStorage` (`rafeeq-locale`).
+- Routes and URLs are unchanged; only visible copy and `lang`/`dir` switch.
+
+Dictionaries and runtime live under `assets/i18n/` (`boot.js`, `runtime.js`, `en.json`, `ur.json`, `ar-improve.json`).
+
+## Notes
+
+- No login/server: care profile in `localStorage` (`rafeeq-care-v1`).
+- SPA shell is duplicated into route folders; `404.html` is the deep-link fallback.
+- `/herbs/` is a separate static page and also includes the language switcher.

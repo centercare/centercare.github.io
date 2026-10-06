@@ -1,0 +1,1 @@
+(function(){try{var l=localStorage.getItem("rafeeq-locale")||"ar";if(l!=="ar"&&l!=="en"&&l!=="ur")l="ar";var d={ar:["ar","rtl"],en:["en","ltr"],ur:["ur","rtl"]}[l];document.documentElement.lang=d[0];document.documentElement.dir=d[1];document.documentElement.dataset.locale=l;}catch(e){}})();
