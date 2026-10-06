@@ -1,1 +1,0 @@
-import{r as e}from"./useRouter-80ermfqe.js";import{J as t,ct as n}from"./shell-q1SQ7iZw2.js";var r=e();function i({className:e}){return(0,r.jsx)(`p`,{className:t(`rounded-lg border border-sand bg-ivory px-4 py-3 text-sm leading-relaxed text-ink-soft`,e),children:n})}export{i as t};

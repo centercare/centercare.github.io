@@ -1,1 +1,0 @@
-import{r as e}from"./useRouter-80ermfqe.js";import{a as t}from"./shell-q1SQ7iZw2.js";import{p as n}from"./index-CDjhILkx2.js";var r=e();function i(){return(0,r.jsx)(t,{children:(0,r.jsx)(n,{})})}export{i as component};
